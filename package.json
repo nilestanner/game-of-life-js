@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mustache template/view.json template/template.html > index.html"
+    "build": "mustache template/view.json template/template.html > index.html",
+    "serve": "live-server"
   },
   "author": "Niles Tanner",
   "license": "MIT",
   "dependencies": {
     "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
   }
 }
